@@ -1,0 +1,4 @@
+[template]
+description  = "Shape text with HarfBuzz through import mcpplibs.mwrap.harfbuzz and draw it in the terminal from the glyph outlines"
+default      = true
+post_message = "Run `mcpp run`, or `mcpp run -- <font.ttf> \"<text>\" [features, e.g. -liga,-kern]` for any font and text."
