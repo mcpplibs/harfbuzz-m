@@ -1,0 +1,21 @@
+harfbuzz-m: C++ module wrapper
+Copyright (c) 2026 mcpp-community contributors
+
+The wrapper contributions are licensed under the Apache License, Version 2.0.
+Upstream code, copied interfaces and dependencies retain their original
+licenses and copyright notices. HarfBuzz is distributed under the "Old MIT"
+license; its copyright holders are listed in upstream/harfbuzz/COPYING and
+upstream/harfbuzz/AUTHORS.
+
+Its original README, license and authors are retained in upstream/harfbuzz/.
+The library itself is built by compat.harfbuzz from the same release.
+Provenance and checksums are recorded in upstream/documents.json.
+
+The test fonts under tests/fonts/ keep their own licenses (SIL Open Font
+License 1.1 for the Noto subsets, MIT for ChromaCheck); see
+tests/fonts/README.md. They are not part of the release archive.
+
+examples/hb-shape/src/main.cpp is a port of HarfBuzz's util/hb-shape (and
+the option headers it uses) to C++23 modules; it keeps HarfBuzz's copyright
+and license notice. The sample font embedded in templates/shape was drawn
+for this wrapper (tools/make_sample_font.py) and is Apache-2.0 like it.

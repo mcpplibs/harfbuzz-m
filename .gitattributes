@@ -1,0 +1,5 @@
+# Preserve upstream document bytes and original whitespace on every platform.
+upstream/** -text -whitespace
+tests/fonts/** -text
+# The release archive is the package: the test fonts and the hb-shape port stay in the repository.
+tests/fonts/** export-ignore

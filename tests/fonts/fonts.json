@@ -1,0 +1,56 @@
+{
+  "fonttools": "4.67.0",
+  "files": {
+    "OFL-NotoSans.txt": {
+      "source": "https://raw.githubusercontent.com/google/fonts/a4c0b21f839d7ac65a7d8b49eb81bddd110774a3/ofl/notosans/OFL.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    "OFL-NotoSansArabic.txt": {
+      "source": "https://raw.githubusercontent.com/google/fonts/a4c0b21f839d7ac65a7d8b49eb81bddd110774a3/ofl/notosansarabic/OFL.txt",
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96"
+    },
+    "OFL-NotoSansDevanagari.txt": {
+      "source": "https://raw.githubusercontent.com/google/fonts/a4c0b21f839d7ac65a7d8b49eb81bddd110774a3/ofl/notosansdevanagari/OFL.txt",
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+    },
+    "LICENSE-ChromaCheck.md": {
+      "source": "https://raw.githubusercontent.com/RoelN/ChromaCheck/d2b0f87bf3e88e1a443d7fceec68ff6eb331df1e/LICENSE.md",
+      "sha256": "545271a138a148140d5d27883a83d92ac1323f6faea2e1a18f88eaafc869618a"
+    },
+    "NotoSans-Latin.ttf": {
+      "source": "https://raw.githubusercontent.com/google/fonts/a4c0b21f839d7ac65a7d8b49eb81bddd110774a3/ofl/notosans/NotoSans%5Bwdth,wght%5D.ttf",
+      "source_sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "instance": null,
+      "unicodes": "U+0020-007E,U+00A0-00FF,U+2026",
+      "license": "OFL-1.1",
+      "sha256": "2186513bcf3a85a7841103ce7fa94028951231016668300b56face67b54ff67c"
+    },
+    "NotoSansArabic-Regular.ttf": {
+      "source": "https://raw.githubusercontent.com/google/fonts/a4c0b21f839d7ac65a7d8b49eb81bddd110774a3/ofl/notosansarabic/NotoSansArabic%5Bwdth,wght%5D.ttf",
+      "source_sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+      "instance": [
+        "wght=400",
+        "wdth=100"
+      ],
+      "unicodes": "U+0020,U+0621-0655,U+0660-066D,U+200C-200F,U+25CC",
+      "license": "OFL-1.1",
+      "sha256": "7c4b72f31d7a779b188f828eca7e8f3ab291d3a9b2d606f9a4bff70c806f6230"
+    },
+    "NotoSansDevanagari-Regular.ttf": {
+      "source": "https://raw.githubusercontent.com/google/fonts/a4c0b21f839d7ac65a7d8b49eb81bddd110774a3/ofl/notosansdevanagari/NotoSansDevanagari%5Bwdth,wght%5D.ttf",
+      "source_sha256": "14ec4af41f27482216d1c2229f417ff9b1425e1babb014e57d1d40d03229853e",
+      "instance": [
+        "wght=400",
+        "wdth=100"
+      ],
+      "unicodes": "U+0020,U+0900-0970,U+200C-200D,U+25CC",
+      "license": "OFL-1.1",
+      "sha256": "a1fd08bac0aab9fb4821a9565a8c7571714d0375ad5d752f95b4bb0c4d26f2d1"
+    },
+    "chromacheck-colr.ttf": {
+      "source": "harfbuzz 14.3.0 test/api/fonts/chromacheck-colr.ttf (from https://raw.githubusercontent.com/RoelN/ChromaCheck/d2b0f87bf3e88e1a443d7fceec68ff6eb331df1e/)",
+      "license": "MIT",
+      "sha256": "27a64326c60ebb377102ee6803780ed756177b84baeec9b1837f603e084b5534"
+    }
+  }
+}

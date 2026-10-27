@@ -1,0 +1,22 @@
+{
+  "upstream": "https://github.com/harfbuzz/harfbuzz/archive/refs/tags/14.3.0.tar.gz",
+  "upstream_sha256": "566e996a1b40486954fb7110ffe6eb88a0f7958bb466cdb023b0302618acea4a",
+  "pruning": "Nothing of HarfBuzz is vendored: the library is compat.harfbuzz 14.3.0, built from the same tarball (src/harfbuzz.cc with HAVE_FREETYPE over compat.freetype). Its README, license and authors are retained here.",
+  "documents": [
+    {
+      "path": "upstream/harfbuzz/README.md",
+      "source": "https://github.com/harfbuzz/harfbuzz/blob/14.3.0/README.md",
+      "sha256": "03f6bebae3d16ea78a651fa1bbc9838354edca3ad39ed692fe5abecb93c29316"
+    },
+    {
+      "path": "upstream/harfbuzz/COPYING",
+      "source": "https://github.com/harfbuzz/harfbuzz/blob/14.3.0/COPYING",
+      "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+    },
+    {
+      "path": "upstream/harfbuzz/AUTHORS",
+      "source": "https://github.com/harfbuzz/harfbuzz/blob/14.3.0/AUTHORS",
+      "sha256": "19bfe8f5ed100636cd24ab0c90a3f71c21d8b02d9ba00719447a0faab364d49f"
+    }
+  ]
+}
