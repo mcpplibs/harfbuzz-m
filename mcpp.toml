@@ -1,0 +1,50 @@
+# Module wrapper; upstream API preserved. Policy: mcpp-index/docs/mwrap.md.
+[package]
+namespace   = "mcpplibs.mwrap"
+name        = "harfbuzz"
+version     = "14.3.0"
+description = "HarfBuzz 14.3.0 C++ modules for mcpp (import mcpplibs.mwrap.harfbuzz;): the API of hb.h, hb-ot.h, hb-aat.h and hb-ft.h over compat.harfbuzz, the C++ helpers of hb-cplusplus.hh, its macros as constants and constexpr functions"
+license     = "Apache-2.0"
+authors     = ["mcpp-community"]
+repo        = "https://github.com/mcpplibs/harfbuzz-m"
+platforms   = ["linux", "macos", "windows"]
+
+[targets.harfbuzz]
+kind = "lib"
+
+[build]
+sources      = ["src/*.cppm"]
+# <mwrap/harfbuzz/macros.hpp>: the macros a function cannot be.
+include_dirs = ["include"]
+
+[dependencies]
+compat.harfbuzz = "14.3.0"
+# <hb-ft.h> (mcpplibs.mwrap.harfbuzz.ft) declares its functions over FreeType's
+# types: the same FreeType compat.harfbuzz is built with.
+compat.freetype = "2.13.3"
+
+[dev-dependencies]
+compat.gtest = "1.15.2"
+
+[package.metadata.mwrap]
+upstream-version = "14.3.0"
+
+[[runtime.deploy]]
+from = "LICENSE"
+to   = "licenses/harfbuzz"
+
+[[runtime.deploy]]
+from = "NOTICE"
+to   = "licenses/harfbuzz"
+
+[[runtime.deploy]]
+from = "upstream/harfbuzz/README.md"
+to   = "licenses/harfbuzz/upstream/harfbuzz"
+
+[[runtime.deploy]]
+from = "upstream/harfbuzz/COPYING"
+to   = "licenses/harfbuzz/upstream/harfbuzz"
+
+[[runtime.deploy]]
+from = "upstream/harfbuzz/AUTHORS"
+to   = "licenses/harfbuzz/upstream/harfbuzz"

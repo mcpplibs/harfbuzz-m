@@ -1,0 +1,12 @@
+[package]
+name        = "hb-shape"
+version     = "0.1.0"
+description = "HarfBuzz's command-line shaper (util/hb-shape), written against import mcpplibs.mwrap.harfbuzz; the host upstream's shaping suites run on"
+license     = "MIT"
+
+[targets.hb-shape]
+kind = "bin"
+main = "src/main.cpp"
+
+[dependencies]
+"mcpplibs.mwrap.harfbuzz" = { path = "../.." }
