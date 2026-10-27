@@ -25,7 +25,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from inventory import fetch  # noqa: E402
 
 SUITES = ('in-house', 'aots', 'text-rendering-tests')
-MINIMUM_PASSES = 5000  # 14.3.0 passes 6,8xx here: a guard against running nothing
+MINIMUM_PASSES = 7000  # 14.3.0 passes 7,549 (7,577 on macOS): a guard against running nothing
 
 
 def host(example: Path, mcpp: str, toolchain: str | None) -> Path:
