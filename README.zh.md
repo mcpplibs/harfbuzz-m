@@ -28,7 +28,7 @@
 ## 快速开始
 
 ```sh
-mcpp new banner --template mcpplibs.mwrap.harfbuzz@14.3.0
+mcpp new banner --template mcpplibs.mwrap.harfbuzz@14.3.0.1
 cd banner
 mcpp run
 mcpp run -- /path/to/font.ttf "Text" -liga,-kern
@@ -39,7 +39,7 @@ mcpp run -- /path/to/font.ttf "Text" -liga,-kern
 
 ```toml
 [dependencies]
-"mcpplibs.mwrap.harfbuzz" = "14.3.0"
+mcpplibs.mwrap.harfbuzz = "14.3.0.1"
 ```
 
 ```cpp
