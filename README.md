@@ -28,7 +28,7 @@ HarfBuzz's own shaping suites pass on every CI run, on a port of upstream's
 ## Getting started
 
 ```sh
-mcpp new banner --template mcpplibs.mwrap.harfbuzz@14.3.0
+mcpp new banner --template mcpplibs.mwrap.harfbuzz@14.3.0.1
 cd banner
 mcpp run
 mcpp run -- /path/to/font.ttf "Text" -liga,-kern
@@ -40,7 +40,7 @@ terminal from the glyph outlines. Given a font file, it shapes any text.
 
 ```toml
 [dependencies]
-"mcpplibs.mwrap.harfbuzz" = "14.3.0"
+mcpplibs.mwrap.harfbuzz = "14.3.0.1"
 ```
 
 ```cpp

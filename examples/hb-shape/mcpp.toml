@@ -9,4 +9,4 @@ kind = "bin"
 main = "src/main.cpp"
 
 [dependencies]
-"mcpplibs.mwrap.harfbuzz" = { path = "../.." }
+mcpplibs.mwrap.harfbuzz = { path = "../.." }

@@ -2,7 +2,7 @@
 [package]
 namespace   = "mcpplibs.mwrap"
 name        = "harfbuzz"
-version     = "14.3.0"
+version     = "14.3.0.1"
 description = "HarfBuzz 14.3.0 C++ modules for mcpp (import mcpplibs.mwrap.harfbuzz;): the API of hb.h, hb-ot.h, hb-aat.h and hb-ft.h over compat.harfbuzz, the C++ helpers of hb-cplusplus.hh, its macros as constants and constexpr functions"
 license     = "Apache-2.0"
 authors     = ["mcpp-community"]
